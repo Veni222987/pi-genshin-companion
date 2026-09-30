@@ -1,0 +1,140 @@
+{
+  "id": "tilted",
+  "name": "歪头版",
+  "width": 40,
+  "height": 40,
+  "palette": {
+    "b": [
+      33,
+      125,
+      165
+    ],
+    "c": [
+      90,
+      204,
+      234
+    ],
+    "a": [
+      184,
+      244,
+      244
+    ],
+    "w": [
+      244,
+      245,
+      252
+    ],
+    "v": [
+      174,
+      183,
+      238
+    ],
+    "o": [
+      184,
+      127,
+      89
+    ],
+    "h": [
+      226,
+      168,
+      116
+    ],
+    "y": [
+      248,
+      213,
+      145
+    ],
+    "l": [
+      255,
+      241,
+      191
+    ],
+    "s": [
+      255,
+      229,
+      207
+    ],
+    "p": [
+      255,
+      244,
+      233
+    ],
+    "r": [
+      244,
+      182,
+      175
+    ],
+    "k": [
+      50,
+      49,
+      59
+    ],
+    "d": [
+      57,
+      110,
+      170
+    ],
+    "f": [
+      144,
+      229,
+      243
+    ],
+    "q": [
+      96,
+      70,
+      62
+    ],
+    "t": [
+      210,
+      162,
+      145
+    ],
+    "u": [
+      248,
+      203,
+      197
+    ]
+  },
+  "pixels": [
+    "........................................",
+    "..............v.........................",
+    "..............vv........................",
+    "..............vwv.......................",
+    "...............wwv......................",
+    "...............wwwv.....................",
+    "...............vwwwv.....o.....v........",
+    "...............vwwwvyyyyyyy....vw.......",
+    "..............oowwwwvlllllyyo.vwww......",
+    ".............yyywwwwwvlllllcyovwwww.....",
+    "...b...c...oyyllvvwwvlllwaccccwwwwvvb...",
+    "..ccccccc..yylllwwvwvwwwaaaacwwwoccccc..",
+    ".bccccccccyyllwwwwwvwwwwwwawwwwyocccccb.",
+    "bcccccccccyylwwwwbbaaaaaahbvwwyyyocccccb",
+    "..bbbbbcbyywwwwbbaaaallllhhlbbbyyoccbbb.",
+    "...bbbbbyylwaabbaalyyyyyyyyhlbbyyyobb...",
+    ".....bbyylhaabaaalllyylyyyyyhhlbyyob....",
+    "...scccyyhaaaaallllhhyylllllylhyyyyo....",
+    "...spssyhhlaaalllhhhhhyylllllyyyyyyo....",
+    "..bcsrpshlllalllhhhhpppfyllllyyyyyyo....",
+    ".bbcsprrhllllllhhhhpppfffyllllyyyyyo....",
+    ".bccssrrhlllllhhhhpppppfpyyllllyyyyo....",
+    ".bcc.sshlllllhhhkkkppppfppyllllyyyyo....",
+    "bcb...yhllllhhhhkkkkpppppppylllyyyoo....",
+    "bbb..oyhhlllhhhpkkkkpppppppylllyoyoo....",
+    ".bb..oylhllhhhpkkkkppppppppylllyoyoo....",
+    "..b..yyllhlhpppkkkkppppppkkkylyyohoo....",
+    "....oyylllhpppppkppppppppkkkklyslhho....",
+    "....oyyllllppprrrrrppppppkkkkysolhho....",
+    "....oylllllppprrrrrpppppkkkkyslollho....",
+    "....oolllllpppprppppppppkkkkssllllh.....",
+    ".....ollhlllpppppppppppprkrrrsllllo.....",
+    ".....oylhhllpppppppppppsrrrrrllllho.....",
+    ".....oohhhydyooppppppppssrsoollllho.....",
+    ".....oohhhhdddwoopppppssspoolllllh......",
+    ".....ohhhhddwwwwwfoopoooooolllllhh......",
+    ".....ohhhhffffwwffddoddvvvllllllho......",
+    "......hdwfffffwwwffwwvvvlllllwdhh.......",
+    ".....ddffffffwwwwfwwvvvvvvvlvwwdd.......",
+    "....dffffffffwwwwwwvvvvvvvvvvvwwddddd..."
+  ]
+}

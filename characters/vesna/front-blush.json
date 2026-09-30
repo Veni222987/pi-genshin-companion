@@ -1,0 +1,140 @@
+{
+  "id": "front-blush",
+  "name": "正脸腮红版",
+  "width": 40,
+  "height": 40,
+  "palette": {
+    "b": [
+      33,
+      125,
+      165
+    ],
+    "c": [
+      90,
+      204,
+      234
+    ],
+    "a": [
+      184,
+      244,
+      244
+    ],
+    "w": [
+      244,
+      245,
+      252
+    ],
+    "v": [
+      174,
+      183,
+      238
+    ],
+    "o": [
+      184,
+      127,
+      89
+    ],
+    "h": [
+      226,
+      168,
+      116
+    ],
+    "y": [
+      248,
+      213,
+      145
+    ],
+    "l": [
+      255,
+      241,
+      191
+    ],
+    "s": [
+      255,
+      229,
+      207
+    ],
+    "p": [
+      255,
+      244,
+      233
+    ],
+    "r": [
+      244,
+      182,
+      175
+    ],
+    "k": [
+      50,
+      49,
+      59
+    ],
+    "d": [
+      57,
+      110,
+      170
+    ],
+    "f": [
+      144,
+      229,
+      243
+    ],
+    "q": [
+      96,
+      70,
+      62
+    ],
+    "t": [
+      210,
+      162,
+      145
+    ],
+    "u": [
+      248,
+      203,
+      197
+    ]
+  },
+  "pixels": [
+    "...................bb...................",
+    "..................bww...................",
+    "..................bwwb..................",
+    ".................bwwwb..................",
+    "...................vwvv.................",
+    ".................vwwwwwvv...............",
+    "................vwwvvvwwvvv.............",
+    "..............vwwwvwywvwwwvv............",
+    ".............vvbvwvvlvvwvbvv............",
+    "..........b.vlbbwvwvvvwvwbbovb..........",
+    ".......bbcboyvwwwwvwbwvwwwwvobcbb.......",
+    "...bcccccaboqoyyyvvbcbvvyyolqoacccccb...",
+    "...ccaaaacooyllllllbabllllyooyoaaaacc...",
+    "..bcaaaaaooyllllllyaacyllllyooyoaaaacb..",
+    "..caaaaacoyyllllllyocoylllllyoooaaaaac..",
+    ".bbccccaooylllllhyyycyyyhllllyoyoccccbb.",
+    "..bbbcccoyylllhyylllyllllylllyoooccbbb..",
+    ".s..bbcooylhyllllllyyyllllyyllyooobb..s.",
+    "..pssbboyylhhllllllyyyllllllhlyooobssp..",
+    "...prssoyylhhyllllyyhyyllllhlllyossrp...",
+    "...ssrroyyllhhllllyyhhyyyylhlllyorrss...",
+    "....ssroyyllhhlyyyypphhhhyhylllyorss....",
+    "....bssroylyhhqqqqpppphqqqqyylyyossb....",
+    "....bbosoylyqqqqppqpppqqqppqqlyosoob....",
+    "....bbohoyyqqkwkwwqqpqkwkwwwwqyohoob....",
+    "...bbbhhoyooqkkkwwwqpqkkkwwwqoyohhobb...",
+    "...bbbhholoopkkkwwqqpqkkkwwwoolohhobb...",
+    "...bbchholosppkppqpppppkppppyolohhcbb...",
+    "...bbchholospppppppppppppppppolohhcbb...",
+    "...bbchholossuuuppppppppuuupsolohhcbb...",
+    "...bbchhlllssuruppppppppurupslllhhcbb...",
+    "...bbchhlllosspppptppptppppsolllhhcbb...",
+    "...bbchhlllossspppptttppppssolllhhcbb...",
+    "....bchhhllloosspppppppppssolllhhhcb....",
+    "....bbhhhlllodosspppppppssodlllhhhbb....",
+    ".....bbhhollwwwwbosssssobwwwwlohhbb.....",
+    ".....b.hhhdwwfwwbbbbabbbbwwvwwdhh.b.....",
+    ".......hddwffffwwbfaaafbvvvvvwwdd.......",
+    ".......ddffffffffbfaaafbvvvvvvvwdd......",
+    ".....ddffffffffffbfaaafbvvvvvvvvvddd...."
+  ]
+}
