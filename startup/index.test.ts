@@ -70,6 +70,32 @@ describe("像素小人启动页", () => {
     expect(renderSprite(100, "truecolor")).toHaveLength(20);
   });
 
+  it("刻晴正脸画作在全尺寸与窄屏下适配两种终端色彩模式", () => {
+    const { characters, warnings } = loadCatalog();
+    expect(warnings).toEqual([]);
+    const keqing = characters.find(character => character.id === "keqing")!;
+    const artwork = keqing.artworks.find(art => art.id === "front")!;
+    expect(keqing.defaultArtwork).toBe(artwork.id);
+    expect(artwork.name).toBe("正脸星瞳像素画");
+    // 两只正脸眼睛保持相同的瞳色与高光布局。
+    for (const row of artwork.pixels.slice(22, 26)) {
+      expect(row.slice(12, 15)).toBe(row.slice(24, 27));
+    }
+    expect(artwork.pixels.every(row => [...row].every(pixel => pixel === "." || pixel in artwork.palette))).toBe(true);
+    for (const mode of ["truecolor", "256color"] as const) {
+      for (const width of [0, 1, 19, 28, 40, 80]) {
+        const lines = renderArtwork(artwork, width, mode);
+        expect(lines).toHaveLength(Math.ceil(Math.min(40, width) / 2));
+        expect(lines.every(line => visibleWidth(line) <= Math.min(40, width))).toBe(true);
+        expect(lines.join("")).not.toContain("undefined");
+        if (width >= 19) {
+          expect(lines.some(line => /[▀▄█]/u.test(line))).toBe(true);
+          expect(lines.join("")).toMatch(mode === "truecolor" ? /\x1b\[38;2;/ : /\x1b\[38;5;/);
+        }
+      }
+    }
+  });
+
   it("宽屏左侧人物右侧显示原生帮助与四类资源，刷新和 Ctrl+O 状态保持同步", () => {
     const { document, tui, header, resources, chat, native, state } = startup();
     const banner = installStartupBanner(tui, theme);

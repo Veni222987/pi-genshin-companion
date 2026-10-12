@@ -1,110 +1,69 @@
 {
   "id": "front",
-  "name": "正面像素画",
+  "name": "正脸星瞳像素画",
   "width": 40,
   "height": 40,
   "palette": {
-    "k": [
-      48,
-      35,
-      72
-    ],
-    "d": [
-      91,
-      58,
-      142
-    ],
-    "p": [
-      170,
-      128,
-      215
-    ],
-    "v": [
-      125,
-      86,
-      183
-    ],
-    "l": [
-      220,
-      190,
-      244
-    ],
-    "s": [
-      255,
-      222,
-      207
-    ],
-    "i": [
-      114,
-      64,
-      170
-    ],
-    "r": [
-      238,
-      155,
-      180
-    ],
-    "q": [
-      137,
-      81,
-      112
-    ],
-    "w": [
-      246,
-      242,
-      255
-    ],
-    "u": [
-      111,
-      79,
-      160
-    ],
-    "g": [
-      241,
-      194,
-      99
-    ]
+    "k": [43, 33, 51],
+    "d": [70, 54, 89],
+    "v": [103, 82, 136],
+    "a": [145, 127, 165],
+    "h": [176, 159, 190],
+    "l": [212, 195, 221],
+    "s": [255, 237, 218],
+    "t": [246, 214, 195],
+    "n": [204, 147, 133],
+    "r": [247, 184, 183],
+    "e": [70, 24, 50],
+    "i": [139, 38, 103],
+    "j": [198, 64, 142],
+    "p": [240, 139, 190],
+    "w": [255, 252, 255],
+    "b": [50, 40, 149],
+    "c": [83, 70, 201],
+    "y": [255, 225, 149],
+    "q": [65, 56, 70]
   },
   "pixels": [
     "........................................",
     "........................................",
-    "........................................",
-    ".............k.............k............",
-    ".............kp...........pk............",
-    "............kkp.....k.....pkk...........",
-    "............kppp...kkk...pppk...........",
-    "...........kppppk.kkpkk.kppppk..........",
-    "...........kplppp.ggggk.ppplpk..........",
-    ".......d..kkplllpkgggglkplllpkk..d......",
-    "......ddd.gppplllpgggglplllpppg.ddd.....",
-    ".....dddd.kppppppplppplpppppppk.dddd....",
-    ".....dddddkppppppplppplpppppppkddddd....",
-    "....ddddddkppppppplppplpppppppkdddddd...",
-    "...ddvddddkpppppppppppppppppppkddddvdd..",
-    "...ddvvdkdkpppppppppppppppppppkdkdvvdd..",
-    "...dvvvvvkkpppspppppppppppspppkkvvvvvd..",
-    "...dvvvvvkkpppsppppsssppppspppkkvvvvvd..",
-    "...dvvvvvkkppsssssssssssssssppkkvvvvvd..",
-    "...vvvvvvkkppsssiisssssiisssppkkvvvvvv..",
-    "...vvvvvvkkkpsssiisssssiissspkkkvvvvvv..",
-    "...vvvvvvdkkppsssrsssssrsssppkkdvvvvvv..",
-    "....vvvvvdkkppsssssssssssssppkkdvvvvv...",
-    "....vvvvvddkkppssssqqsssssppkkddvvvvv...",
-    "....vvvvvddkkkpssssssssssspkkkddvvvvv...",
-    "....dvvvvdd.kkkkssssssssskkkk.ddvvvvd...",
-    "....dvvvvdd.kkkkkkssssskkkkkk.ddvvvvd...",
-    ".....dvvvdd....w..ssss...w....ddvvvd....",
-    "......ddddd...wwwwwssswwwww...ddddd.....",
-    "......ddddd..dwwuwwwwwwwuwwd..ddddd.....",
-    "......ddd..dddduvuwkkkwuvudddd..ddd.....",
-    ".........dddddddvvgggggvvddddddd........",
-    ".........dddddddvvgggggvvddddddd........",
-    "........dddddddvvvvkkkvvvvddddddd.......",
-    "........ddddkddvvvvkkkvvvvddkdddd.......",
-    ".......dddddkddvvvvkgkvvvvddkddddd......",
-    ".......dddddkddvvvvkkkvvvvddkddddd......",
-    "......ddddddkdvvvvvkkkvvvvvdkdddddd.....",
-    "......ddddddkdvvvvvkgkvvvvvdkdddddd.....",
-    "............k...............k..........."
+    "......kkk.....................kkk.......",
+    "....kaaaakk.....kkkkkkkk....kkaaaak.....",
+    "....kvaaaakwlkkkaaaaaaaakkkkwlaaavk.....",
+    "....kkvaawlkkaaaaaaaaaaaaaakkawlvk......",
+    ".....kvvalkkaaaavvvdaavvvaaakklvvk......",
+    ".....kvvwkkaaaavhhhhaaddavaaakkwlk......",
+    ".....kkkkkaaaahhhhhhhhaddavaaakkkk......",
+    ".....kkkkahhlahhhhhhhhhaddalaaakk.......",
+    "....kbbkavhlaahhhhhhhhhhaddalaakkbk.....",
+    "...kbbkkvhhlahhhhaahhhhaaadalvaakbbk....",
+    "...kbckavhldahhhlaaalladaadahlvakcbk....",
+    "...kcckvvhldahhalllllaadaaddhlvakcck....",
+    "...kkkkvvhldahhalllllaadsaadhhlakkkk....",
+    "...kkkavvlhdahaaalllaaassaadhhlvakkk....",
+    "....kkavhlvdsdaaallaaaassaadvhlvakk.....",
+    ".....kavhhvdsdaaaldaaadsssaadhhvak......",
+    "....kkavhhvssdaaadaaadsssssadhhvakk.....",
+    "....kbkvhvsnndaaddaadssnnnssahhvkkk.....",
+    "....kbkvhvseeddndaadssseeennvdvvkbk.....",
+    "....bbkvhvewwwiwdadsssewwwiwvhvakbk.....",
+    "....bbkkhvwiwjjidssssewiwjjivhvkkbb.y...",
+    "....bbbkhhwijjjiwssssswijjjivhvkkbb.y...",
+    "....bbbkvhvljpjwsssssswljpjvhvvkbbyywyy.",
+    "....bbkkkvvwpppwsssssswwpppvhvkkkbb.y...",
+    "...bbbkkkkvwwwssssssssswwwsvvvkkkbb.y...",
+    "...bbkkhhkavsssssssstsrssssvvkkhkkbb....",
+    "...bkkahhhkrrrsssnssssrsssvvrkhhkkkb....",
+    "...k.kahhhakatttssnnnnssstvkkhhhakkk....",
+    "..k.kkahhaakkaaattttttttaakkaahhakk.k...",
+    "....kkahhaakkkkaaaaaaaaaakkkaahhakk.....",
+    "....kkahhakk.kkkkkaaaakkkkkkaahhakk.....",
+    "....kahhhakkkkttsskkkkkktkkkkahhhak.....",
+    "....kahhhakkktttskssskqqktkkkahhhak.....",
+    "...kkahhakkkqqtttqqkcqqktqqkkaahhakk....",
+    "...kaahhakkqvvqqttccbcccqqvvkkahhaak....",
+    "...kahhaakkqqqvvqtcctbqqvvqqkkaahhak....",
+    "..kkahaak.kqqyqqvkckkkbqvqyqqkkaahakk...",
+    "..kaaaak.kqqqqqqvqckkqqvqqqqqqkkaaaak..."
   ]
 }
