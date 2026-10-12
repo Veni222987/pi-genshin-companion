@@ -29,7 +29,7 @@ function installCharacter(dir: string, id: string): void {
 }
 
 describe("角色目录与画作配置", () => {
-  it("薇斯纳默认加载两张透明 40×40 画作和配置化语录", () => {
+  it("内置角色加载透明 40×40 画作和配置化语录", () => {
     const { characters, warnings } = loadCatalog();
     expect(warnings).toEqual([]);
     const vesna = characters.find(c => c.id === "vesna")!;
@@ -42,6 +42,19 @@ describe("角色目录与画作配置", () => {
     expect(vesna.quotes.length).toBeGreaterThan(30);
     expect(resolveSelection(characters, { characterId: "vesna", artworkId: "tilted" }).artworkId).toBe("tilted");
     expect(resolveSelection(characters, { characterId: "gone", artworkId: "gone" }).artworkId).toBe("front-blush");
+
+    const keqing = characters.find(c => c.id === "keqing")!;
+    expect(keqing.name).toBe("刻晴");
+    expect(keqing.englishName).toBe("Keqing");
+    expect(keqing.element).toBe("electro");
+    expect(ELEMENT_COLORS[keqing.element]).toEqual(ELEMENT_COLORS.electro);
+    expect(keqing.defaultArtwork).toBe("front");
+    expect(keqing.artworks.map(art => art.id)).toEqual(["front"]);
+    expect(keqing.artworks[0]?.pixels).toHaveLength(40);
+    expect(keqing.artworks[0]?.pixels.every(row => row.length === 40)).toBe(true);
+    expect(keqing.artworks[0]?.pixels[0]).toContain(".");
+    expect(keqing.quotes).toHaveLength(83);
+    expect(resolveSelection(characters, { characterId: "keqing", artworkId: "front" })).toEqual({ characterId: "keqing", artworkId: "front" });
   });
 
   it("自动发现第二角色，按配置读取多张画作", () => {

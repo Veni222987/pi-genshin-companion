@@ -25,13 +25,15 @@ describe("角色人格资源", () => {
     expect(loadCharacterPreamble("vesna", dir).error).toBeDefined();
   });
 
-  it("内置薇斯纳人格具备完整角色章节和实际内容", () => {
-    const resource = loadCharacterPreamble("vesna");
-    expect(resource.error).toBeUndefined();
-    for (const title of ["身份与自我认知", "人格内核", "与用户的关系", "语言与表达节奏", "情绪与场景反应", "经历与生活细节", "与用户共事", "对话示例"]) {
-      expect(resource.preamble).toContain(`## ${title}`);
+  it("内置角色人格具备完整角色章节和实际内容", () => {
+    for (const [id, name] of [["vesna", "薇斯纳"], ["keqing", "刻晴"]] as const) {
+      const resource = loadCharacterPreamble(id);
+      expect(resource.error).toBeUndefined();
+      for (const title of ["身份与自我认知", "人格内核", "与用户的关系", "语言与表达节奏", "情绪与场景反应", "经历与生活细节", "与用户共事", "对话示例"]) {
+        expect(resource.preamble).toContain(`## ${title}`);
+      }
+      expect(resource.preamble).toContain(name);
     }
-    expect(resource.preamble).toContain("薇斯纳");
   });
 
   it("缺失、空白、读取错误与非法角色 ID 均安全降级", () => {

@@ -7,7 +7,8 @@ import { installStartupBanner as installBanner } from "./adapter.ts";
 import { registerStartupBanner as registerBanner } from "./index.ts";
 import { loadCatalog } from "../catalog/index.ts";
 
-const front = loadCatalog().characters[0]!.artworks.find(art => art.id === "front-blush")!;
+const vesna = loadCatalog().characters.find(character => character.id === "vesna")!;
+const front = vesna.artworks.find(art => art.id === "front-blush")!;
 const renderSprite = (width: number, mode: "truecolor" | "256color") => renderArtwork(front, width, mode);
 const installStartupBanner = (tui: TUI, uiTheme: Theme) => installBanner(tui, uiTheme, () => front);
 const registerStartupBanner = (pi: ExtensionAPI) => registerBanner(pi, () => front);
@@ -157,7 +158,7 @@ describe("像素小人启动页", () => {
 
   it("切换画作后原生顶部复用同一布局并渲染另一张头像", () => {
     const { document, tui, header } = startup();
-    const art = loadCatalog().characters[0]!.artworks.find(item => item.id === "tilted")!;
+    const art = vesna.artworks.find(item => item.id === "tilted")!;
     let current = front;
     const banner = installBanner(tui, theme, () => current);
     header.children[0] = banner;

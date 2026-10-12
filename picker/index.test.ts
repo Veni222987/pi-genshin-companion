@@ -4,7 +4,7 @@ import { describe, expect, it, vi } from "vitest";
 import { loadCatalog } from "../catalog/index.ts";
 import { CompanionPicker, searchCharacters } from "./index.ts";
 
-const vesna = loadCatalog().characters[0]!;
+const vesna = loadCatalog().characters.find(character => character.id === "vesna")!;
 const example = { ...vesna, id: "example", name: "示例角色", englishName: "Example" };
 const theme = { getColorMode: () => "truecolor" } as Theme;
 
